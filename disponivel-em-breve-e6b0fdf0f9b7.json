@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "disponivel-em-breve",
+  "private_key_id": "e6b0fdf0f9b7783b35c7a45562b7f09ea9fcedd6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDhdSGglwgVZmg6\npJXblzz0uCYLMRT5lTtEVZBFMXIfryVLr4GTJ45PYZH6c9QaiGaGgUi+kC73pLaq\npvLNcc+GjF8ItadLJY1WKIrJ1r6NG0GjYmLDz2kOWKnf+aJ3D8IYTE6NAAJV6QBK\nPqOpNuYSQk5oiWyvc96+dEdxLStkNte0ofdXupEE7BrXlVJjaikHwuFw9mlMHCaq\nkbpjAMG6IEPmENmBCjtuLEwPNBBxiPq8Iduhmt+klC2P/yUso3CBMcO4j8YGldre\n/OkMAj6Qb22JFZ3p5KF/C3H0wZ1jo5WpP7pnQGef539df9qz1dEjOGlVa6dmKYu9\ndBLkLTVBAgMBAAECggEABaHy0q+VRk4YOmdWXl2kWmePnUHXGJ9sozHZTG4+X/nk\n5lO6mq/fPX7WOh3q0ZUg7Rk1pVumLb4P6XppaF4wmWegP/AkX2NvORTjF0Tx/qXc\nvWGJzsMruG3ZBCFJKJz0XB2rbHjApi9vmDtBhNqsE66UBYbx5/3+xY6zgnmGuw6a\n8rX2/5rsfeSpHYa1kWKL3PgSm3BK4VP8vNV8s/EfEMsUoXj9pochgnFYWUhjM1Z7\nI61pcAqRSe5xO58B8IbwgiR+VobzbJ6g9ii3CJOs13rmySFFu1k+3YejhPBbIhtq\nujdpEP8b7n0g2plxaioBdRiFZnVOy+II5IsgvmfGcQKBgQDx9S6nFVnKMZFjniLT\nf5zkfL7Jk2nh8DiuNlA74Xzfc2LBG0xXpjeVLN8SerzyfV8MJJZ0vAkULAKMIy/Y\nRXyyKJVdhQthEXNDb+dy4gwk4vtsQEMqOeoF2R0z7qqPdL2BPKVw2SaqhvPQg5/b\nQE4B+2w6oxl7iqw0fCHBx9Ml0QKBgQDuis1ZsC4LU9By41zic/OxJdr4VDy1iunD\nZSRvmFJKDMnQ6+pG2QyXmt3B+ocCUnSxNUcnsrRxp9lrjR4r4Kb6N4CyxbOt7zb2\npcAwePIsxHywoVusiExE9y9ioLRQxTt+js2V9U5BZYRLt2vEIyrWf3xxTndh/o8N\nvLN0oI5EcQKBgQCXIfcKFqQHT/7oopZOVZ/CeMkTUCkLH+nHp9VmEerWCFTfGhYN\niZ2eaHDOMixjqzv7cb8pG2rwVq0gq7nu9Th2cDMcP0ZkU2oT7Yo8kEXVpJI3g8xw\nS8yJ6pv7HFEdWmYkm6UbYAhu6+zPiegII5qWUl3AIrCAIpZ+Eitjx1V0gQKBgQDY\nYg6e8gMCgXgQD5C9VsNTCWzVYMxlPeqJNaFUnY7f3zPfEXHF7LPQfkn04UZA4/04\nloTCTQgEJWdDeZJJ6RJu3ZQgFtjDycBJAtgQ4FWGKIKXUveuzUCqOrPAOtj2f8NV\nLULuacQf7G+So4LdO61rP9/phG0k9l5b7rW28MG88QKBgQCjp9MBv2LMYFH7elYy\nUrO8fNLAFRzQUxDIfxCthvJIL7ipips7FfQQAjX77MROTqhnjODeauLmIxS/rGA2\nZwHr0LoPK5YhbfpLBFqH1e2qGEmuKwEIp3seDHbXKqYhvHvmsZ1kik0N+sPHWdZt\n8XwTh8nx99ZuZyZuwvralee7ew==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-imoveis@disponivel-em-breve.iam.gserviceaccount.com",
+  "client_id": "109384015371173810466",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-imoveis%40disponivel-em-breve.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
