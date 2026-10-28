@@ -15,7 +15,7 @@ if "logado" not in st.session_state:
 
 if not st.session_state.logado:
     st.title("🔒 Acesso Restrito")
-    senha_digitada = st.text_input("Digite a senha de acesso", type="password")
+    senha_digitada = st.text_input("Digite a senha", type="password")
     if st.button("Entrar"):
         if senha_digitada == SENHA_EMPRESA:
             st.session_state.logado = True
