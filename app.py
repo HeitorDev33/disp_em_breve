@@ -4,6 +4,14 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 import time
+import json
+
+# Define as permissões do Google (o scope)
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+
+# Lê a chave diretamente do cofre invisível do Streamlit
+credenciais_dict = json.loads(st.secrets["google_credentials"])
+creds = ServiceAccountCredentials.from_json_keyfile_dict(credenciais_dict, scope)
 
 st.set_page_config(page_title="Disponível Em Breve", page_icon="🏡", layout="wide")
 
@@ -115,7 +123,7 @@ else:
                     st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
         else:
             st.info("Nenhum imóvel cadastrado ainda ou colunas incorretas.")
-            
+
     # ABA EXCLUIR
     with aba_gerenciar:
         st.subheader("Excluir Imóvel do Sistema")
