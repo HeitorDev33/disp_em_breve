@@ -108,12 +108,14 @@ else:
                     st.dataframe(df_filtrado.style.map(colorir_vencidos, subset=['Vencido']), use_container_width=True, hide_index=True)
                     imoveis_vencidos = df_filtrado[df_filtrado["Vencido"] == "SIM"]
                     if not imoveis_vencidos.empty:
-                        st.warning(f"⚠️ Atenção: {len(imoveis_vencidos)} imóvel(eis) com a data vencida nesta seleção!")
+                        qtd = len(imoveis_vencidos)
+                        texto_imovel = "imóvel" if qtd == 1 else "imóveis"
+                        st.warning(f"⚠️ Atenção: {qtd} {texto_imovel} com a data vencida!")
                 else:
                     st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
         else:
             st.info("Nenhum imóvel cadastrado ainda ou colunas incorretas.")
-
+            
     # ABA EXCLUIR
     with aba_gerenciar:
         st.subheader("Excluir Imóvel do Sistema")
