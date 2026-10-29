@@ -35,7 +35,8 @@ else:
     @st.cache_resource
     def conectar_planilha():
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-        creds = ServiceAccountCredentials.from_json_keyfile_name("disponivel-em-breve-e6b0fdf0f9b7.json", scope)
+        credenciais_dict = json.loads(st.secrets["google_credentials"])
+        creds = ServiceAccountCredentials.from_json_keyfile_dict(credenciais_dict, scope)
         client = gspread.authorize(creds)
         sheet = client.open("disponivel_em_breve").worksheet("disponivel_em_breve")
         return sheet
