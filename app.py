@@ -44,9 +44,9 @@ else:
     planilha = conectar_planilha()
 
     # --- 3. INTERFACE DO SISTEMA ---
-    st.title("🏡 Imóveis: Disponível Em Breve")
+    st.title("Disponível Em Breve")
 
-    aba_cadastro, aba_busca, aba_gerenciar = st.tabs(["➕ Cadastro Imóvel", "🔍 Buscar e Filtrar", "⚙️ Excluir Imóvel"])
+    aba_cadastro, aba_busca, aba_gerenciar = st.tabs(["➕ Cadastro Imóvel", "🔍 Buscar e Filtrar", "❌ Excluir Imóvel"])
 
     # ABA CADASTRO
     with aba_cadastro:
